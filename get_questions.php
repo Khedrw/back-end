@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require 'connection.php';
 
 $quiz_id = $_GET['quiz_id'] ?? '';
 

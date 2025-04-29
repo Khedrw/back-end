@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require 'connection.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $quiz_id = $_POST['quiz_id'] ?? '';

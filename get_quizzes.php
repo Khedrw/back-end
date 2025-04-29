@@ -1,5 +1,5 @@
 <?php
-require 'db.php';
+require 'connection.php';
 
 $stmt = $conn->query("SELECT * FROM quizzes");
 $quizzes = $stmt->fetchAll(PDO::FETCH_ASSOC);
